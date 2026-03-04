@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="rettory"
+version="1.0.0"
+displayName="Rettory"
+credits="Your Name"
+authors="Your Name"
+description="Advanced rendering mod compatible with Embeddium for Minecraft 1.20.1"
+
+[[dependencies.rettory]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="CLIENT"
+
+[[dependencies.rettory]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="ANY"
